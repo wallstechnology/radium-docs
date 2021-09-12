@@ -1,0 +1,16 @@
+enabled: true
+from: radiumbugz@gmail.com
+from_name: 'Radium LIS Admin'
+to: support@walls.solutions
+mailer:
+  engine: smtp
+  smtp:
+    server: smtp.gmail.com
+    port: 587
+    encryption: tls
+    user: radiumbugz@gmail.com
+    password: 2P03@gmail4wts
+  sendmail:
+    bin: '/usr/sbin/sendmail -bs'
+content_type: text/html
+debug: false
